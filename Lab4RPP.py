@@ -3,7 +3,6 @@ from pathlib import Path
 from typing import List, Dict, Iterator, Optional
 
 #изменение для Лаб5
-#изменение2 для Лаб5
 class Animal:
     def __init__(self, id_num: str, name: str, breed: str, age: str):
         self.__dict__['_id_num'] = id_num
